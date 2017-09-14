@@ -1,0 +1,73 @@
+*{
+	padding:0;/*căn lề trong*/
+	margin:0;/*căn bên ngoài các thẻ*/
+}
+body{
+	width:1000px;
+	margin:auto;
+	/*padding:0.5em;*/
+	/*border:1px solid #ff3333;/* tao khung*/
+}
+
+
+h2{
+	background:red;/* màu nền h2*/
+	width:600px;/* độ rộng*/
+	margin-top:30px; /*right,left,bottom*/
+	height:100px;/*chiều cao*/
+	line-height:100px;/* căn lề đối xứng trên dưới chữ*/
+	font-size:50px;/*kích thước chữ*/
+	color:white; /*màu chữ*/
+	font-weight:bold; /* Độ đậm của chữ */
+}
+#vung1{
+	width:100%;
+	height:100px;
+	margin-top:10px;
+	color:green;
+	background:lightgray;
+}
+
+#vung2{
+	width:100%;
+	height:100px;
+	margin-top:10px;
+	color:red;
+	background:yellow;
+}
+.class1{
+	width:32%;
+	float:left;/*can le*/ 
+	height:100px;
+	background:blue;
+	color:white;
+	margin-top:10px;
+	margin-left:10px;
+}
+/***********/
+#header{
+	width:100%;
+	height:150px;
+	border:1px solid black;
+}
+#menu{
+	margin-top:10px;
+	width:100%;
+	height:40px;
+	background:#ff3333;
+}
+#menu li{
+	float:left;
+	list-style-type:none;
+	width:100px;
+	height:40px;
+}
+#menu li a{
+	display:block;
+	line-height:40px;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+}
