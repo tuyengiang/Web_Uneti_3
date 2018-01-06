@@ -76,8 +76,8 @@
 		// 		}	
 		// 	}
 		// }
-		if($_SERVER["REQUEST_METHOD"]=="GET"){
-			$a=$_GET["age"];
+		if($_SERVER["REQUEST_METHOD"]=="POST"){
+			$a=$_POST["age"];
 			echo "Tuoi cua ban " .$a."<br>"; 
 
 		}
@@ -94,7 +94,7 @@
  </head>
  <body>
  <h1>Kiem tra tuoi</h1>
- <form method="get">
+ <form method="post">
  	<lable>
  		<input type="number" placeholder="Nhap tuoi" name="age">
  		<button type="submit">gui</button>
